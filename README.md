@@ -1,1 +1,1 @@
-"# SwaNet" 
+This is the PyTorch implementation of SwaNet: Scalable wavelet-based Feature Extraction Network. The network can be used as a backbone for detection, classification, tracking, or other computer vision-related tasks. Additionally, the network can be scaled as tiny, small, medium, or large. You can even increase the number of layers if your GPU can handle it and you have a large dataset to train. 
