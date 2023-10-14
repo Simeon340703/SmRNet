@@ -58,8 +58,7 @@ def dwt(x, name='haar'):
 
         x_LL = mu0 * x1 + mu1 * x2 + mu2 * x3 + mu3 * x4
         x_HL = -mu0 * x1 - mu1 * x2 + mu2 * x3 + mu3 * x4
-        x_LH = -mu0 * x1 + mu1 * x2 - mu2 * x3 + mu3 * x4
-
+        x_LH = -mu0 * x1 + mu1 * x2 - mu2 * x3 + mu3 * x4 #The X_HH component is discarded due to excessive noise.
     return torch.cat((x_LL, x_HL, x_LH), 1)
 
 
