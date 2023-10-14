@@ -1,4 +1,6 @@
-This is the PyTorch implementation of SmRNet: Scalable Multiresolution Feature Extraction Network. The network is a versatile backbone for various computer vision tasks such as detection, classification, and tracking. ![SmRNet](full_arch.png)
+This is the PyTorch implementation of SmRNet: Scalable Multiresolution Feature Extraction Network. The network is a versatile backbone for various computer vision tasks such as detection, classification, and tracking.
+![Upsampling_Downsampling](upsample_downsample_blocks.png)
+![SmRNet](full_arch.png)
 
 
 If you find this work useful, please cite:
