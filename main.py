@@ -1,3 +1,6 @@
+"""
+Modified based on: https://github.com/pytorch/examples/blob/main/imagenet/main.py
+"""
 import math
 import cv2
 import torch
