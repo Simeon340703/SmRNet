@@ -5,10 +5,10 @@ If you find this work useful, please cite:
 
 
 ```bash
-@article{alaba2022wcnn3d,
+@INPROCEEDINGS{alaba2023smrnet,
   title={SmRNet: Scalable Multiresolution Feature Extraction Network},
   author={Alaba, Simegnew Yihunie and Ball, John E},
-  journal={IEEE International Conference on Electrical, Computer and Energy Technologies (ICECET 2023)},
+  booktitle={IEEE International Conference on Electrical, Computer and Energy Technologies (ICECET 2023)},
   year={2023},
   publisher={IEEE}
 }
@@ -24,3 +24,6 @@ Install PyTorch and related.
 #### 3. How to Run
 The default batch size is 128. model choices=['SmRNet_l', 'SmRNet_m', 'SmRNet_s']. dataset choices=['cifar10', 'cifar100'],
 python main.py --batch-size 128 --lr 0.1 --model SmRNet --dataset cifar100 --epochs 100
+#### 4 To DO
+1. Add Object Detection
+2.  Add Semantic Segmentation
