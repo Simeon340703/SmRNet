@@ -1,5 +1,6 @@
-This is the PyTorch implementation of SmRNet: Scalable Multiresolution Feature Extraction Network. The network is a versatile backbone for various computer vision tasks such as detection, classification, and tracking.
+This is the PyTorch implementation of SmRNet: Scalable Multiresolution Feature Extraction Network. Serving as a versatile backbone, the network integrates the discrete wavelet transform (DWT) and its inverse (IDWT) to cater to various computer vision tasks, including detection, classification, and tracking.
 ![Upsampling_Downsampling](upsample_downsample_blocks.png)
+
 ![SmRNet](full_arch.png)
 
 
