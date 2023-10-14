@@ -25,8 +25,6 @@ import torch.multiprocessing as mp
 import torch.utils.data
 import torch.utils.data.distributed
 from models import *
-from utils import WarmUpLR
-from transforms import CutOut, RandomErasing
 
 #
 parser = argparse.ArgumentParser(description='PyTorch Training')
