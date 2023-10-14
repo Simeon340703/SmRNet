@@ -22,7 +22,8 @@ git clone https://github.com/Simeon340703/SmRNet.git
 #### 2. Install Python packages
 Install PyTorch and related.
 #### 3. How to Run
-The default batch size is 128. model choices=['SmRNet_l', 'SmRNet_m', 'SmRNet_s']. dataset choices=['cifar10', 'cifar100'],
+#The default batch size is 128. model choices=['SmRNet_l', 'SmRNet_m', 'SmRNet_s']. dataset choices=['cifar10', 'cifar100'],
+
 python main.py --batch-size 128 --lr 0.1 --model SmRNet --dataset cifar100 --epochs 100
 #### 4 To DO
 1. Add Object Detection
