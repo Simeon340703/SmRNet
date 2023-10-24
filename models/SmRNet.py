@@ -49,7 +49,7 @@ def dwt(x, name='haar'):
         x_LL = x1 + x2 + x3 + x4
         x_HL = -x1 - x2 + x3 + x4
         x_LH = -x1 + x2 - x3 + x4
-    else:
+    else:#db4
         sqrt2, sqrt3 = math.sqrt(2), math.sqrt(3)
         mu0 = (1 + sqrt3) / (2 * sqrt2)
         mu1 = (3 + sqrt3) / (2 * sqrt2)
@@ -74,7 +74,7 @@ def idwt(x, name='haar'):
         h[:, :, 1::2, 0::2] = x1 - x2 + x3 - x4
         h[:, :, 0::2, 1::2] = x1 + x2 - x3 - x4
         h[:, :, 1::2, 1::2] = x1 + x2 + x3 + x4
-    else:
+    else:#db4
         sqrt2, sqrt3 = math.sqrt(2), math.sqrt(3)
         mu0 = (1 + sqrt3) / (2 * sqrt2)
         mu1 = (3 + sqrt3) / (2 * sqrt2)
