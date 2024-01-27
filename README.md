@@ -8,13 +8,16 @@ If you find this work useful, please cite:
 
 
 ```bash
-@INPROCEEDINGS{alaba2023smrnet,
-  title={SmRNet: Scalable Multiresolution Feature Extraction Network},
-  author={Alaba, Simegnew Yihunie and Ball, John E},
-  booktitle={IEEE International Conference on Electrical, Computer and Energy Technologies (ICECET 2023)},
+@INPROCEEDINGS{10389571,
+  author={Alaba, Simegnew Yihunie and Ball, John E.},
+  booktitle={2023 International Conference on Electrical, Computer and Energy Technologies (ICECET)}, 
+  title={SmRNet: Scalable Multiresolution Feature Extraction Network}, 
   year={2023},
-  publisher={IEEE}
-}
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ICECET58911.2023.10389571}}
+
 ```
 ## Getting Started
 #### 1. Clone code
